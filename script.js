@@ -1,4 +1,12 @@
-function changeBackground() {
-    document.body.style.backgroundColor = 
-        document.body.style.backgroundColor === 'rgb(244, 244, 244)' ? '#d32f2f' : '#f4f4f4';
+function toggleList() {
+    let list = document.getElementById("infoList");
+    let button = document.getElementById("toggleButton");
+
+    if (list.style.display === "none") {
+        list.style.display = "block"; 
+        button.textContent = "Скрыть список"; 
+    } else {
+        list.style.display = "none"; 
+        button.textContent = "Развернуть список"; 
+    }
 }

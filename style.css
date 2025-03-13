@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #b71c1c;
+    background-color: #9a0cec;
     color: white;
     padding: 20px;
     text-align: center;
@@ -17,17 +17,17 @@ header {
     display: flex;
     align-items: center;
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 70px auto;
     background: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    padding: 20px;
+    padding: 70px;
 }
 
 .image {
     flex: 1;
     max-width: 300px;
-    margin-right: 20px;
+    margin-right: 70px;
 }
 
 .image img {
@@ -45,7 +45,7 @@ ul {
 
 button {
     padding: 10px 20px;
-    background-color: #b71c1c;
+    background-color: #9a0cec;
     color: white;
     border: none;
     border-radius: 5px;
@@ -53,8 +53,26 @@ button {
     transition: background 0.3s;
 }
 
+#infoList {
+    display: none;
+    padding-left: 20;
+}
+
 button:hover {
-    background-color: #880e0e;
+    background-color: #7718b6;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #8407eb; 
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
